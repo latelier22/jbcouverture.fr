@@ -67,7 +67,7 @@ const Home = () => {
       body : " des solutions exceptionnelles pour répondre à vos besoins en matière de toiture.Que ce soit pour la réparation, l'entretien, la gestion des fuites de toit, les peinture des toitures et boiseries ou d'autres travaux divers de maÃ§onnerie, nous sommes là pour vous offrir des services fiables et professionnels. Explorez nos différentes sections pour en savoir plus sur nos activités."
     },
     {
-      title: " NOS SAVOIRS FAIRES",
+      title: " NOS SAVOIRS FAIRE",
       body : <ul className="list-disc pl-4"><li>Entretien et nettoyage des toitures, murs, démoussage, suppression du vert des toitures, remplacement des tuiles, ardoises.</li>
       <li>Intervention 7/7 J - 24/24h en cas d&apos;urgences ou fuites de votre toiture.</li>
       <li>Pose de bâche en urgence, mise hors d&apos;eau, remplacement des tuiles, ardoises.</li>
