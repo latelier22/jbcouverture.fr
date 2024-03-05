@@ -29,9 +29,9 @@ export async function POST(request) {
   
    // CrÃ©ation du message
 	const sendGridMail = {
-		to: "contact@couvreurplumelec.fr",
-		from: "contact@couvreurplumelec.fr",
-		templateId: "d-4660587aed21443ea9cfa422302dd368",
+		to: "contact@brillant-couverture.fr",
+		from: "contact@brillant-couverture.fr",
+		templateId: "d-d49b2ef1e8544ce0880b37f5e9d061d0",
 		dynamic_template_data: {
 			prenom: prenom,
 			nom: nom,
