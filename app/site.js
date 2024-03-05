@@ -220,10 +220,10 @@ export const Pages = {
 
 <h2 class="text-2xl font-bold mb-2">Nos services comprennent :</h2>
 <ul class="list-disc pl-8 mb-6">
-  <li>Ramonage complet : Nous éliminons efficacement les dépôts de suie, de cendres et de goudron accumulés dans votre cheminée, réduisant ainsi les risques d'incendie et d'émissions de gaz dangereux.</li>
+  <li>Ramonage complet : Nous éliminons efficacement les dépôts de suie, de cendres et de goudron accumulés dans votre cheminée, réduisant ainsi les risques d&apos;incendie et d&apos;émissions de gaz dangereux.</li>
   <li>Inspection visuelle : Nos techniciens effectuent une inspection visuelle détaillée de votre cheminée pour repérer les signes de dommages, de fuites ou de dysfonctionnements éventuels.</li>
-  <li>Nettoyage des conduits : Nous nettoyons également les conduits de fumée pour garantir une circulation d'air optimale et une combustion efficace.</li>
-  <li>Conseils d'entretien : Nous vous fournissons des conseils d'entretien personnalisés pour prolonger la durée de vie de votre cheminée et garantir son bon fonctionnement tout au long de l'année.</li>
+  <li>Nettoyage des conduits : Nous nettoyons également les conduits de fumée pour garantir une circulation d&apos;air optimale et une combustion efficace.</li>
+  <li>Conseils d&apos;entretien : Nous vous fournissons des conseils d&apos;entretien personnalisés pour prolonger la durée de vie de votre cheminée et garantir son bon fonctionnement tout au long de l&apos;année.</li>
 </ul>
 
 <h2 class="text-2xl font-bold mb-2">Pourquoi nous choisir :</h2>
@@ -233,7 +233,7 @@ export const Pages = {
   <li>Service clientèle : Notre équipe amicale est là pour répondre à toutes vos questions et vous fournir une assistance personnalisée à chaque étape du processus.</li>
 </ul>
 
-<p class="text-lg">Ne laissez pas l'accumulation de suie compromettre la sécurité de votre maison. Contactez-nous dès aujourd'hui pour planifier votre prochain ramonage de cheminée avec Brillant COUVERTURE.</p>
+<p class="text-lg">Ne laissez pas l&apos;accumulation de suie compromettre la sécurité de votre maison. Contactez-nous dès aujourd&apos;hui pour planifier votre prochain ramonage de cheminée avec Brillant COUVERTURE.</p>
 
             </>
           },
