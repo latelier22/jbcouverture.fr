@@ -15,7 +15,7 @@ const Home = () => {
   // DÃ©clarer les photos dans un tableau d&apos;objets
   const photos = [];
 
-  
+
 
   const cards = [
     {
@@ -57,25 +57,39 @@ const Home = () => {
       url: "menu-travaux-divers.png",
       alt: "",
     },
-    
+
   ];
 
 
   const sections = [
     {
       title: "ENTRETIEN",
-      body : " des solutions exceptionnelles pour répondre à vos besoins en matière de toiture.Que ce soit pour la réparation, l'entretien, la gestion des fuites de toit, les peinture des toitures et boiseries ou d'autres travaux divers de maÃ§onnerie, nous sommes là pour vous offrir des services fiables et professionnels. Explorez nos différentes sections pour en savoir plus sur nos activités."
+      body: " des solutions exceptionnelles pour répondre à vos besoins en matière de toiture.Que ce soit pour la réparation, l'entretien, la gestion des fuites de toit, les peinture des toitures et boiseries ou d'autres travaux divers de maÃ§onnerie, nous sommes là pour vous offrir des services fiables et professionnels. Explorez nos différentes sections pour en savoir plus sur nos activités."
     },
     {
       title: " NOS SAVOIRS FAIRE",
-      body : <ul className="list-disc pl-4"><li>Entretien et nettoyage des toitures, murs, démoussage, suppression du vert des toitures, remplacement des tuiles, ardoises.</li>
-      <li>Intervention 7/7 J - 24/24h en cas d&apos;urgences ou fuites de votre toiture.</li>
-      <li>Pose de bâche en urgence, mise hors d&apos;eau, remplacement des tuiles, ardoises.</li>
-      <li>Peinture boiseries, peinture sur toitures.</li>
-      <li>Réparation, nettoyage ou remise à neuf de votre gouttière.</li>
-      <li>Petits travaux de ma&ccedil;onnerie, mur en pierre, parpaings, brique, allées, pavés pierre, pavés autobloquants, petite dalle, terrasse...</li></ul>
+      body: <ul className="list-disc pl-4"><li>Entretien et nettoyage des toitures, murs, démoussage, suppression du vert des toitures, remplacement des tuiles, ardoises.</li>
+        <li>Intervention 7/7 J - 24/24h en cas d&apos;urgences ou fuites de votre toiture.</li>
+        <li>Pose de bâche en urgence, mise hors d&apos;eau, remplacement des tuiles, ardoises.</li>
+        <li>Peinture boiseries, peinture sur toitures.</li>
+        <li>Réparation, nettoyage ou remise à neuf de votre gouttière.</li>
+        <li>Petits travaux de ma&ccedil;onnerie, mur en pierre, parpaings, brique, allées, pavés pierre, pavés autobloquants, petite dalle, terrasse...</li></ul>
+    },
+    {
+      title: "EXEMPLES DE TRAVAUX",
+      body: <ul className="list-disc pl-4"><li>Recherche de fuite sur toiture</li>
+        <li>Vérification de toiture</li>
+        <li>Réparation de toiture</li>
+        <li>Pose de chapeau sur cheminée</li>
+        <li>Hydrofuge, peinture, résine sur toiture</li>
+        <li>Démoussage avec DALEP 2100</li>
+        <li>Nettoyage de toiture</li>
+        <li>Nettoyage de bardage</li>
+        <li>Ramonage</li>
+      </ul>
     },
   ]
+  
 
 
 
@@ -85,7 +99,7 @@ const Home = () => {
   return (
     <RootLayout pageTitle={pageTitle} pageDescription={pageDescription}>
       <Navbar />
-      <HeaderSimple photos={photos} title={pageTitle}/>
+      <HeaderSimple photos={photos} title={pageTitle} />
       <Pictos />
 
       <div className="bg-red-700">
@@ -94,6 +108,7 @@ const Home = () => {
 
       <Section section={sections[0]} />
       <Section section={sections[1]} />
+      <Section section={sections[2]} />
 
       <Footer />
     </RootLayout>

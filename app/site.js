@@ -1,14 +1,14 @@
 export const site = {
-  title: 'JB COUVERTURE',
-  description: 'JB COUVERTURE - BRILLANT JESSY- 0764468692',
-  societe : "JB COUVERTURE",
+  title: 'BRILLANT Jessy COUVERTURE',
+  description: 'BRILLANT Jessy COUVERTURE- 0764468692',
+  societe : "BRILLANT Jessy COUVERTURE",
   SIRET: "83018036000026",
   contact : "Jessy BRILLANT",
   telephone: "0764468692",
-  adresse: "46 Kernihel",
-  codePostal : "56420",
-  ville : "PLUMELEC",
-  email : "contact@j-bcouverture.fr",
+  adresse: "kerbois ",
+  codePostal : "56340",
+  ville : "CARNAC",
+  email : "contact@brillant-couverture.fr",
   logo : {url :"images/logo-barre-du-haut.png", alt :"logo JB COUVERTURE"},
   Logo : {url :"images/logo-banniere.png", alt :"logo JB COUVERTURE"}
 };
@@ -21,6 +21,7 @@ export const menuItems = [
     { label: "Travaux divers", route: "/travaux-divers" },
     { label: "Fuites", route: "/fuites" },
     { label: "Gouttières", route: "/gouttieres" },
+    { label: "Ramonage", route: "/ramonage" },
     { label: "Contact", route: "/contact" },
   ];
 
@@ -192,6 +193,49 @@ export const Pages = {
           {
             title: "NOS SAVOIR FAIRE :",
             body : <ul className="list-disc pl-4"><li>• Entretien et nettoyage des toitures, murs, démoussage, suppression du vert des toitures, remplacement des tuiles, ardoises.</li><li>• Intervention 7/7 J - 24/24h en cas d’urgences ou fuites de votre toiture.</li><li>• Pose de bâche en d’urgence, mise hors d’eau, remplacement des tuiles, ardoises..</li></ul>
+          },
+        ],
+        cards : [
+          
+        ],
+      },
+      "ramonage": {
+        title: "Ramonage",
+        description: "Contenu pour la page de ramonage...",
+        photos : [
+          { url: "ramonage-1.png", alt: "gallery" },
+          { url: "ramonage-2.png", alt: "gallery" },
+          { url: "ramonage-3.png", alt: "gallery" },
+          { url: "ramonage-4.png", alt: "gallery" },
+        ],
+        sections : [
+          {
+            title: "NOS SAVOIR FAIRE :",
+            body : <>
+            <h1 class="text-3xl font-bold mb-4">Service de Ramonage de Cheminées</h1>
+
+<p class="text-lg mb-6">Gardez votre cheminée propre et sécurisée avec notre service de ramonage professionnel.</p>
+
+<p class="text-lg mb-6">Le ramonage régulier de votre cheminée est essentiel pour assurer un fonctionnement sûr et efficace de votre système de chauffage. Chez Brillant COUVERTURE, nous proposons un service complet de ramonage de cheminées pour les propriétaires résidentiels et commerciaux.</p>
+
+<h2 class="text-2xl font-bold mb-2">Nos services comprennent :</h2>
+<ul class="list-disc pl-8 mb-6">
+  <li>Ramonage complet : Nous éliminons efficacement les dépôts de suie, de cendres et de goudron accumulés dans votre cheminée, réduisant ainsi les risques d'incendie et d'émissions de gaz dangereux.</li>
+  <li>Inspection visuelle : Nos techniciens effectuent une inspection visuelle détaillée de votre cheminée pour repérer les signes de dommages, de fuites ou de dysfonctionnements éventuels.</li>
+  <li>Nettoyage des conduits : Nous nettoyons également les conduits de fumée pour garantir une circulation d'air optimale et une combustion efficace.</li>
+  <li>Conseils d'entretien : Nous vous fournissons des conseils d'entretien personnalisés pour prolonger la durée de vie de votre cheminée et garantir son bon fonctionnement tout au long de l'année.</li>
+</ul>
+
+<h2 class="text-2xl font-bold mb-2">Pourquoi nous choisir :</h2>
+<ul class="list-disc pl-8 mb-6">
+  <li>Professionnalisme : Nos techniciens qualifiés et expérimentés assurent un service professionnel et fiable à chaque visite.</li>
+  <li>Sécurité : Nous accordons la plus haute priorité à la sécurité de nos clients et de leurs propriétés, en respectant toutes les normes et réglementations en vigueur.</li>
+  <li>Service clientèle : Notre équipe amicale est là pour répondre à toutes vos questions et vous fournir une assistance personnalisée à chaque étape du processus.</li>
+</ul>
+
+<p class="text-lg">Ne laissez pas l'accumulation de suie compromettre la sécurité de votre maison. Contactez-nous dès aujourd'hui pour planifier votre prochain ramonage de cheminée avec Brillant COUVERTURE.</p>
+
+            </>
           },
         ],
         cards : [
